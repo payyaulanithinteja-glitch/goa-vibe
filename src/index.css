@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --canvas-sand: #FFF9F2;
+    --surface-white: #FFFFFF;
+    --deep-charcoal: #243330;
+    --muted-driftwood: #5C6E6A;
+    --primary-teal: #0F9D94;
+    --secondary-orange: #FF8A3D;
+    --tertiary-coral: #E0533C;
+    --sand-border: #E6D8C8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--canvas-sand);
+    color: var(--deep-charcoal);
+  }
+}
+
+/* Tactile Warm Ambient Shadows defined by the design spec */
+.shadow-tactile-1 {
+  box-shadow: 0px 4px 16px -2px rgba(84, 58, 30, 0.06), 0px 1px 3px 0px rgba(84, 58, 30, 0.04);
+}
+
+.shadow-tactile-2 {
+  box-shadow: 0px 10px 28px -4px rgba(84, 58, 30, 0.10), 0px 2px 6px 0px rgba(84, 58, 30, 0.06);
+}
+
+.shadow-tactile-3 {
+  box-shadow: 0px 20px 40px -8px rgba(84, 58, 30, 0.16);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d5e6e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bcc9c7;
+}

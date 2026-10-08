@@ -1,0 +1,6 @@
+{
+  "name": "GoaVibe - Tropical Travel Companion & Smart Itinerary",
+  "description": "Sun-drenched, accessible travel companion and smart itinerary planner for North & South Goa with custom multi-generational schedules, interactive coastal map, and beach guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
